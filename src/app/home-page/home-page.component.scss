@@ -1,0 +1,32 @@
+#home-page {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgb(200, 0, 0);
+
+  a {
+    color: rgb(200, 0, 0);
+    display: block;
+    box-sizing: border-box;
+    background: white;
+    width: 100%;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+
+    &:first-child {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+
+    &:last-child {
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      margin-bottom: 0;
+    }
+  }
+}
